@@ -6,14 +6,14 @@ void Helpers::HookFunction(PVOID *oFunction, PVOID pDetour)
 {
 	DetourTransactionBegin();
 	DetourUpdateThread(GetCurrentThread());
-	DetourAttach(oFunction, pDetour);
+	//DetourAttach(oFunction, pDetour);
 	DetourTransactionCommit();
 }
 void Helpers::UnhookFunction(PVOID *oFunction, PVOID pDetour)
 {
 	DetourTransactionBegin();
 	DetourUpdateThread(GetCurrentThread());
-	DetourDetach(oFunction, pDetour);
+	//DetourDetach(oFunction, pDetour);
 	DetourTransactionCommit();
 }
 
