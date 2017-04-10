@@ -1,9 +1,7 @@
-﻿#include "stdafx.h"
+#include "stdafx.h"
 #include "CCheat.h"
 #include "Helpers.h"
 #include "Hooks.h"
-
-#include "SDK.hpp" // Credits: ѕу¢σяє
 
 ID3D11Device *CCheat::pDevice = NULL;
 ID3D11DeviceContext *CCheat::pContext = NULL;
@@ -85,7 +83,7 @@ void CCheat::Release()
 	//ShowWindow(GetConsoleWindow(), SW_HIDE);
 	//FreeConsole();
 
-	// UNHOOK THE FUNCTIONS GOD DAMNIT
+	// UNHOOK
 	Helpers::UnhookFunction(reinterpret_cast<PVOID*>(&Hooks::oPresent), Hooks::hkD3D11Present);
 	Helpers::UnhookFunction(reinterpret_cast<PVOID*>(&Hooks::oDrawIndexed), Hooks::hkD3D11DrawIndexed);
 	Helpers::UnhookFunction(reinterpret_cast<PVOID*>(&Hooks::oCreateQuery), Hooks::hkD3D11CreateQuery);
