@@ -2,14 +2,14 @@
 Simple chams wallhack for Player Unknowns Battlegrounds using a D3D11DrawIndexed hook
 Feature List:
  
-Visuals (ESP):
-Names ESP
-Distance ESP
-Box ESP
-Snapline ESP
-Health ESP
-Bone ESP
-Player ESP View Distance Slider
+Visuals (Aimbot):
+Names Ainbot
+Distance Ainbot
+Box aimBot
+Snapline Aimbot
+Health Aimbot
+Bone AimBot
+Player AimBot View Distance Slider
 Custom Visible Color
 Custom Hidden Color
 Aimbot:
@@ -29,4 +29,4 @@ Save & Load Settings
 Cloud Configuration
 
 
- JeffreyPlomy, Twisted721, Maggie6077, viagra preis 100mg, XavierLaulk, jblvd
+ Je
